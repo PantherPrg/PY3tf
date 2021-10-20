@@ -9,7 +9,7 @@ perfect = True
 
 for i in range(numtasks):
   # Argument formatting
-  testCase = open(("tC/tC" + str(i) + ".in"), "r").readlines()
+  testCase = open(("tC/tC" + str(i) + ".in"), "r").read().splitlines()
 
   print("-------------------<test-case-" + str(i) + ">-------------------")
   variables["t{0}t".format(i)] = open(("tCA/tCA" + str(i) + ".out"), "r").read()
