@@ -1,4 +1,4 @@
-# PPSC_task_0: Title
+# PY3_task_0: Title
 **| difficulty: 0/10 |**
 
 Background, instructions
